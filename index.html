@@ -2,23 +2,273 @@
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
-<title>🔥🔥🔥 Personal Website Title Goes Here 🔥🔥🔥</title>
+<title>My Weather App</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="weather-icons.css">
 </head>
+
 <body>
-<div id="root">
-  <div class="hero">
-    <div class="content">
-      <h1 class="content__h1">
-        👋 friends, this blank canvas is what you will use to build your personal portfolio.
-      </h1>
-      <p class="content__p">
-        Notice your stylesheet, <code>style.css</code>. It is connected to the HMTL file (look into the <head> of index.html for proof).
-        Go ahead and modify this html & css and get creative! Try to keep it simple. <a href="https://dribbble.com/search?q=personal+website">Look at examples of personal websites</a> and try to get inspired and do your best!
-      </p>
+   <!-- for the background picture -->
+  <div class="overall-container">
+    
+    
+    <div class="box1 flex">
+        <input class="inputForm" name="location" type="text" placeholder="Type Name of City Here"/>
     </div>
+    
+    <div class="weather-box flex center column">
+      <div class="written-weather-container">
+        <h1 class="written-weather">
+          Stormy
+        </h1>
+      </div>
+      <div class="temperature-container">
+        <h1 class="temperature">
+          1°
+        </h1>
+      </div>
+    </div>
+    
+    <div class="info-bar flex">
+    <div class="date-and-time-container center">
+      <h3 class="date-and-time">
+        Sunday, June 3rd, 20:17
+      </h3>
+    </div>
+    <div class="locationName-container">
+      <h3 class="locationName">
+        New York
+      </h3>
+    </div>
+    </div>
+    
+    <div class="today-weather-container date-weather-container flex">
+      <div class="1day-container date-container">
+        <h3 class="1day day">
+          1day
+        </h3>
+      </div>
+      <div class= "icon-container0 icon-container">
+        <h3 class="icon1 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container1 hi-low-container flex">
+      <div class="hi-container1 hi-container">
+        <h3 class="hi1 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container1 low-container">
+        <h3 class="low1 low">
+           -5 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+    <div class="border">
+    </div>
+    
+    <!-- HOURLY START -->
+    
+    <div class="hours-weather-container1 hours-weather-container flex">
+      </div>
+    
+
+    <!-- HOURLY FINISH -->
+    
+    <div class ="border">
+    </div>
+    
+    <!-- DAILY START -->
+    
+    <div class="tomorrow-weather-container date-weather-container flex">
+      <div class="2day-container date-container">
+        <h3 class="2day day">
+          2day
+        </h3>
+      </div>
+      <div class= "icon-container2 icon-container">
+         <h3 class="icon2 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container2 hi-low-container flex">
+      <div class="hi-container2 hi-container">
+        <h3 class="hi2 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container2 low-container">
+        <h3 class="low2 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="3day-weather-container date-weather-container flex">
+      <div class="3day-container date-container">
+        <h3 class="3day day">
+          3day
+        </h3>
+      </div>
+      <div class= "icon-container3 icon-container">
+         <h3 class="icon3 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container3 hi-low-container flex">
+      <div class="hi-container3 hi-container">
+        <h3 class="hi3 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container3 low-container">
+        <h3 class="low3 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="4day-weather-container date-weather-container flex">
+      <div class="4day-container date-container">
+        <h3 class="4day day">
+          4day
+        </h3>
+      </div>
+      <div class= "icon-container4 icon-container">
+         <h3 class="icon4 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container4 hi-low-container flex">
+      <div class="hi-container4 hi-container">
+        <h3 class="hi4 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container4 low-container">
+        <h3 class="low4 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="5day-weather-container date-weather-container flex">
+      <div class="5day-container date-container">
+        <h3 class="5day day">
+          5day
+        </h3>
+      </div>
+      <div class= "icon-container5 icon-container">
+         <h3 class="icon5 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container5 hi-low-container flex">
+      <div class="hi-container5 hi-container">
+        <h3 class="hi5 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container5 low-container">
+        <h3 class="low5 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="6day-weather-container date-weather-container flex">
+      <div class="6day-container date-container">
+        <h3 class="6day day">
+          6day
+        </h3>
+      </div>
+      <div class= "icon-container6 icon-container">
+         <h3 class="icon6 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container6 hi-low-container flex">
+      <div class="hi-container6 hi-container">
+        <h3 class="hi6 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container6 low-container">
+        <h3 class="low6 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="7day-weather-container date-weather-container flex">
+      <div class="7day-container date-container">
+        <h3 class="7day day">
+          7day
+        </h3>
+      </div>
+      <div class= "icon-container7 icon-container">
+         <h3 class="icon7 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container7 hi-low-container flex">
+      <div class="hi-container7 hi-container">
+        <h3 class="hi7 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container7 low-container">
+        <h3 class="low7 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+     <div class="8day-weather-container date-weather-container flex">
+      <div class="8day-container date-container">
+        <h3 class="8day day">
+          8day
+        </h3>
+      </div>
+      <div class= "icon-container8 icon-container">
+         <h3 class="icon8 icon">
+          icon
+        </h3>
+      </div>
+      <div class="hi-low-container8 hi-low-container flex">
+      <div class="hi-container8 hi-container">
+        <h3 class="hi8 hi">
+            6 degrees
+        </h3>
+      </div>
+      <div class="low-container8 low-container">
+        <h3 class="low8 low">
+            6 degrees
+        </h3>
+      </div>
+      </div>
+    </div>
+    
+    <!-- DAILY FINISH -->
+    
+
+    
+    
   </div>
-</div>
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="vendor/moment.js"></script>
+<script src="vendor/moment-timezone.js"></script>
 </body>
 </html>

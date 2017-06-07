@@ -1,14 +1,91 @@
-.content {
-  max-width: 500px;
-  margin: 0 auto;
+body {
+  margin: 0;
 }
 
-.content__h1 {
-  font-size: 32px;
-  line-height: 42px;
+
+.overall-container {
+  background: url("http://allswalls.com/images/sunny-day-in-the-mountains-wallpaper-1.jpg");
+  background-size: cover;
+  position: relative; /* why does this work */
+  width: 100%;
+  min-height: 100%;
 }
 
-.content__p {
-  font-size: 24px;
-  line-height: 32px;
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.date-weather-container {
+  justify-content: space-around;
+}
+
+.hi-container {
+  margin-right: 30px;
+}
+
+.border {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+.hours-weather-container {
+  padding-left: 20px;
+}
+
+.hi, .low, .day, .icon, .written-weather, .temperature {
+  color: white;
+}
+
+.date-and-time-container {
+  max-width: 200px;
+}
+
+.hour-weather-container {
+  min-width: 100px;
+
+}
+
+.hours-weather-container {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+
+.box1 {
+  justify-content: center;
+}
+
+.inputForm {
+  width: 450px;
+  height: 45px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: Transparent;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.hour-icon-container, .icon-container, .low, .hi, .hour-hi, .hour, .day {
+  font-size: 22px;
+}
+
+.info-bar {
+ justify-content: space-around;
+}
+
+.locationName-container {
+ // float: right;
+}
+
+.written-weather, .temperature {
+  font-size: 40px;
 }
